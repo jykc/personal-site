@@ -1,0 +1,17 @@
+.btn-gray {
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  background: $jess-light-gray;
+  opacity: 0.6;
+  transition: background 0.3s ease;
+  font-style: oswald;
+  font-size: 14px;
+  margin: 10px 0 10px 0;
+}
+.btn-gray:hover {
+  opacity: 1;
+  background: $jess-light-gray;
+  text-decoration: none;
+  color: white;
+}
