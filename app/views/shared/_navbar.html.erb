@@ -1,8 +1,11 @@
 <div class="navbar-wagon">
   <!-- Logo -->
-  <a href="/" class="navbar-wagon-brand">
-    <img src="images/logo.png" alt="logo">
-  </a>
+  <%= link_to root_path, class: "navbar-wagon-brand" do %>
+    <div class="navbar-logo">
+      <%= image_tag "logo.png" %>
+      <h1>Jessica Choong</h1>
+    </div>
+  <% end %>
 
   <!-- Right Navigation -->
   <div class="navbar-wagon-right hidden-xs hidden-sm">
@@ -23,8 +26,8 @@
           <li><a href="#">Log Out</a></li>
         </ul>
       </div>
-    </div>
-  </div> -->
+    </div>-->
+  </div>
 
   <!-- Dropdown appearing on mobile only -->
   <div class="navbar-wagon-item hidden-md hidden-lg">
