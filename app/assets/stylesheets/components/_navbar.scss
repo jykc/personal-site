@@ -9,10 +9,10 @@
   align-items: center;
   justify-content: space-between;
 }
-
 /* Logo */
 .navbar-wagon-brand img {
   height: 50px;
+  border-radius: 50%;
 }
 
 /* User Avatar */
@@ -80,8 +80,9 @@
 .navbar-logo {
   display:flex;
   vertical-align: center;
+  margin-left: 10px;
   h1 {
-    margin: 14px 0 0 0;
+    margin: 14px 0 0 10px;
     font-size: 20px;
   }
 }

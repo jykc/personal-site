@@ -32,7 +32,7 @@
     background-size: cover;
  }
 .about-container {
-  height: 60vh;
+
   background: white;
   color: black;
   display: flex;
@@ -40,6 +40,7 @@
   justify-content: center;
 }
 .about-content {
+  margin: 60px 0 80px 0;
   width: 60vw;
   h3 {
     font-size: 24px;
@@ -61,21 +62,24 @@
       'img_parallax2.jpg'
     );
 }
-.projects-container {
-  height: 60vh;
+.projects-and-contact-container {
   background: white;
   color: black;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.projects-content {
+.projects-and-contact-content {
+  margin: 60px 0 80px 0;
   width: 60vw;
   h3 {
     font-size: 24px;
-    margin-top: 0;
   }
   p {
     font-size: 14px;
   }
+  .contact {
+    margin-top: 60px;
+  }
 }
+
