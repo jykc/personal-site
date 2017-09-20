@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="About Jess"></meta>
-    <title>Jess</title>
+    <title>Jessica Choong</title>
     <%= csrf_meta_tags %>
     <%= action_cable_meta_tag %>
     <%= stylesheet_link_tag 'application', media: 'all' %>
   </head>
   <body>
+    <%= render 'shared/fakenavbar' %>
     <%= render 'shared/navbar' %>
     <%= yield %>
     <%= render 'shared/footer' %>

@@ -2,7 +2,7 @@
 .banner {
   color: white;
   text-align: center;
-  height: 60vh;
+  height: 80vh;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
   display: flex;
@@ -51,7 +51,7 @@
   }
 }
 .banner2 {
-  height: 60vh;
+  height: 50vh;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
   display: flex;
@@ -79,7 +79,7 @@
     font-size: 14px;
   }
   #contact {
-    margin-top: 60px;
+    margin-top: 80px;
   }
 }
 
