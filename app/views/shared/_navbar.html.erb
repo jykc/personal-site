@@ -3,21 +3,24 @@
   <%= link_to root_path, class: "navbar-wagon-brand" do %>
     <div class="navbar-logo">
       <%= image_tag "logo.png" %>
-      <h1>JESSICA CHOONG</h1>
+      <h1 class="navbar-text">JESSICA CHOONG</h1>
     </div>
   <% end %>
 
   <!-- Right Navigation -->
   <div class="navbar-wagon-right hidden-xs hidden-sm">
-
-    <a href="#home" class="navbar-wagon-item navbar-wagon-link">HOME</a>
-    <a href="#about" class="navbar-wagon-item navbar-wagon-link">ABOUT</a>
-    <a href="#projects" class="navbar-wagon-item navbar-wagon-link">PROJECTS</a>
-    <a href="" class="navbar-wagon-item navbar-wagon-link">ARTWORK</a>
-
-    <a href="" class="navbar-wagon-item navbar-wagon-link">PHOTOS</a>
-    <a href="#contact" class="navbar-wagon-item navbar-wagon-link">CONTACT</a>
-
+    <%= link_to artwork_path do %>
+      <p class="navbar-text">ARTWORK</p>
+    <% end %>
+    <%= link_to photos_path do %>
+      <p class="navbar-text">PHOTOS</p>
+    <% end %>
+    <%= link_to "#{root_path}#projects" do %>
+      <p class="navbar-text">PROJECTS</p>
+    <% end %>
+    <%= link_to "#{root_path}#contact" do %>
+      <p class="navbar-text">CONTACT</p>
+    <% end %>
     <!-- Profile picture with dropdown list -->
   <!--   <div class="navbar-wagon-item">
       <div class="dropdown">
