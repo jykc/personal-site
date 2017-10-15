@@ -1,11 +1,12 @@
 .card {
-  height: 240px;
+  height: 260px;
   text-shadow: 0 1px 3px rgba(0,0,0,0.6);
   background-size: cover !important;
   background-position: center;
   color: white;
   position: relative;
   margin-bottom: 40px;
+  img-size:cover;
 }
 .card-category {
   position: absolute;
