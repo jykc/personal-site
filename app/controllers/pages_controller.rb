@@ -2,13 +2,14 @@ class PagesController < ApplicationController
 
   def home
   end
+  def contact
+  end
 
   def artwork
     @images = Image.all
   end
 
   def photos
-
   end
 
   private

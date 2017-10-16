@@ -1,0 +1,18 @@
+.contact-container {
+  background: white;
+  color: black;
+  display: flex;
+  // align-items: center;
+  justify-content: center;
+  height: 75vh;
+}
+.contact-content {
+  margin: 60px 0 80px 0;
+  width: 60vw;
+  h3 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 14px;
+  }
+}

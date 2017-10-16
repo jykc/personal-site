@@ -39,12 +39,26 @@
     <div class="dropdown">
       <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
       <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#">PROJECTS</a></li>
-        <li><a href="#">ARTWORK</a></li>
-        <li><a href="#">ARTWORK</a></li>
-        <li><a href="#">CONTACT</a></li>
+        <li>
+          <%= link_to "#{root_path}#about" do %>
+            <p class="navbar-text">ABOUT</p>
+          <% end %>
+        </li>
+        <li>
+          <%= link_to "#{root_path}#projects" do %>
+            <p class="navbar-text">PROJECTS</p>
+          <% end %>
+        </li>
+        <li>
+          <%= link_to "#{root_path}#contact" do %>
+            <p class="navbar-text">CONTACT</p>
+          <% end %>
+        </li>
+        <li>
+          <%= link_to artwork_path do %>
+            <p class="navbar-text">ARTWORK</p>
+          <% end %>
+        </li>
       </ul>
     </div>
   </div>
