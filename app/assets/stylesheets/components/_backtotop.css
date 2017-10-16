@@ -1,0 +1,15 @@
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display:none;
+    background: $jess-light-gray;
+    opacity: 0.6;
+    border: none;
+}
+.back-to-top:hover {
+  background: $jess-light-gray;
+  opacity: 1;
+  border: none;
+}
