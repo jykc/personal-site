@@ -1,6 +1,5 @@
 .footer {
   background: #F4F4F4;
-  display: flex;
   align-items: center;
   justify-content: space-between;
   height: 100px;
@@ -29,4 +28,10 @@
 
 .footer-copyright {
   font-size: 12px;
+}
+
+@media screen and (min-width: 500px) {
+.footer {
+  display: flex;
+}
 }
