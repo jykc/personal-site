@@ -1,0 +1,99 @@
+<!--Carousel-->
+<div class="carousel-container">
+  <div class="modal fade and carousel slide" id="lightbox">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Thailand</h4>
+        </div>
+        <div class="modal-body">
+          <ol class="carousel-indicators">
+            <li data-target="#lightbox" data-slide-to="0" class="active"></li>
+            <li data-target="#lightbox" data-slide-to="1"></li>
+            <li data-target="#lightbox" data-slide-to="2"></li>
+            <li data-target="#lightbox" data-slide-to="3"></li>
+            <li data-target="#lightbox" data-slide-to="4"></li>
+            <li data-target="#lightbox" data-slide-to="5"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="assets/photos/thailand1.jpg" alt="Thailand First Slide">
+            </div>
+            <div class="item">
+              <img src="assets/photos/thailand2.jpg" alt="Thailand Second Slide">
+            </div>
+            <div class="item">
+              <img src="assets/photos/thailand3.jpg" alt="Thailand Third Slide">
+            </div>
+            <div class="item">
+              <img src="assets/photos/thailand4.jpg" alt="Thailand Fourth Slide">
+            </div>
+            <div class="item">
+              <img src="assets/photos/thailand5.jpg" alt="Thailand Fifth Slide">
+            </div>
+            <div class="item">
+              <img src="assets/photos/thailand6.jpg" alt="Thailand Sixth Slide">
+            </div>
+          </div><!-- /.carousel-inner -->
+          <a class="left carousel-control" href="#lightbox" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#lightbox" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div><!-- /.modal-body -->
+        <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+</div><!-- /.container -->
+<!-- Carousel end -->
+
+<div class="cards-container">
+  <div class="container">
+      <h3><%= link_to photos_path, :class => "photo-link" do %>PHOTOS<% end %> > THAILAND</h3>
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+          <!-- insert <div class="card"> -->
+          <div class="card" style="background-image: url('assets/photos/thailand1card.jpg');">
+           <a class="card-link" href="#lightbox" data-toggle="modal" data-slide-to="0"></a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+          <!-- insert <div class="card"> -->
+          <div class="card" style="background-image: url('assets/photos/thailand2card.jpg');">
+           <a class="card-link" href="#lightbox" data-toggle="modal" data-slide-to="1"></a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+          <!-- insert <div class="card"> -->
+          <div class="card" style="background-image: url('assets/photos/thailand3.jpg');">
+           <a class="card-link" href="#lightbox" data-toggle="modal" data-slide-to="2"></a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+          <!-- insert <div class="card"> -->
+          <div class="card" style="background-image: url('assets/photos/thailand4.jpg');">
+           <a class="card-link" href="#lightbox" data-toggle="modal" data-slide-to="3"></a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+          <!-- insert <div class="card"> -->
+          <div class="card" style="background-image: url('assets/photos/thailand5.jpg');">
+          <a class="card-link" href="#lightbox" data-toggle="modal" data-slide-to="4"></a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+          <!-- insert <div class="card"> -->
+          <div class="card" style="background-image: url('assets/photos/thailand6.jpg');">
+          <a class="card-link" href="#lightbox" data-toggle="modal" data-slide-to="5"></a>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+
