@@ -47,12 +47,17 @@
   }
   p {
     font-size: 14px;
-    a:link {
-    text-decoration: none;
-    color: $jess-gray;
-    }
   }
-
+  a {
+    text-decoration: none;
+    color: #17139c;
+    opacity: 0.8;
+  }
+  a:hover {
+    text-decoration: none;
+    color: #17139c;
+    opacity: 1;
+  }
 }
 .banner2 {
   height: 50vh;
@@ -85,5 +90,16 @@
   #contact {
     margin-top: 80px;
   }
+  a {
+    text-decoration: none;
+    color: #17139c;
+    opacity: 0.8;
+  }
+  a:hover {
+    text-decoration: none;
+    color: #17139c;
+    opacity: 1;
+  }
+
 }
 

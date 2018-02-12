@@ -1,0 +1,44 @@
+
+<div class="cards-container">
+  <div class="container">
+    <div class="photo-container">
+      <h3>PHOTO ALBUMS</h3>
+      <!--Cards-->
+      <div class="row">
+        <div class="col-xs-12 col-sm-3">
+          <!-- insert <div class="card"> -->
+          <%= link_to owls_path, :class => "photo-card" do %>
+          <div class="card" style="background-image: url('assets/photos/owls1.jpg');">
+            <div class="card-category">Owls at Leeds Castle</div>
+          </div>
+          <% end %>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+          <!-- insert <div class="card"> -->
+          <%= link_to flowers_path, :class => "photo-card" do %>
+          <div class="card" style="background-image: url('assets/photos/flowers2.jpg');">
+            <div class="card-category">Flowers</div>
+          </div>
+          <% end %>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+          <!-- insert <div class="card"> -->
+          <%= link_to streetart_path, :class => "photo-card" do %>
+          <div class="card" style="background-image: url('assets/photos/streetart3.jpg');">
+            <div class="card-category">Buenos Aires Street Art</div>
+          </div>
+          <% end %>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+          <!-- insert <div class="card"> -->
+          <%= link_to thailand_path, :class => "photo-card" do %>
+          <div class="card" style="background-image: url('assets/photos/thailand1.jpg');">
+            <div class="card-category">Thailand</div>
+          </div>
+          <% end %>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
