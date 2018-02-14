@@ -37,12 +37,21 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  p {
+  // p {
+  //   color: $jess-gray;
+  //   opacity: 0.6;
+  //   font-size: 14px;
+  //   margin-left: 40px;
+  //   margin-top: 12px;
+  // }
+  .navbar-text {
     color: $jess-gray;
     opacity: 0.6;
     font-size: 14px;
-    margin-left: 40px;
-    margin-top: 12px;
+  }
+  .navbar-text:hover {
+    color: $jess-gray;
+    opacity: 1;
   }
 }
 
@@ -63,6 +72,7 @@
   opacity: 1;
 
 }
+
 
 
 /* Dropdown menu */
@@ -99,14 +109,17 @@
   display:flex;
   vertical-align: center;
   margin-left: 10px;
-  h1 {
+  .navbar-text {
     margin: 14px 0 0 10px;
     font-size: 20px;
     color: $jess-gray;
+    opacity: 0.6;
     text-decoration: none;
   }
-  .navbar-text a:hover {
+  .navbar-text:hover {
     text-decoration: none;
+    color: $jess-gray;
+    opacity: 1;
   }
 }
 

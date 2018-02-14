@@ -1,3 +1,27 @@
+<!-- JavaScript for backtotop button -->
+<script>
+  $(document).ready(function(){
+     $(window).scroll(function () {
+            if ($(this).scrollTop() > 50) {
+                $('#back-to-top').fadeIn();
+            } else {
+                $('#back-to-top').fadeOut();
+            }
+        });
+        // scroll body to 0px on click
+        $('#back-to-top').click(function () {
+            $('#back-to-top').tooltip('hide');
+            $('body,html').animate({
+                scrollTop: 0
+            }, 800);
+            return false;
+        });
+
+        $('#back-to-top').tooltip('show');
+
+  });
+</script>
+
 <!--Carousel-->
 <div class="carousel-container">
   <div class="modal fade and carousel slide" id="lightbox">
@@ -27,7 +51,8 @@
               <img src="http://res.cloudinary.com/dnvhnyuny/image/upload/v1518448127/artwork1_riam4t.jpg" alt="Artwork First Slide">
             </div>
             <div class="item">
-              <img src="http://res.cloudinary.com/dnvhnyuny/image/upload/v1518448126/artwork2_vxjipp.jpg
+              <img src="http://res.cloudinary.com/dnvhnyuny/image/upload/v1518448126/artwork2_vxjipp.jpg" alt="Artwork Second Slide">
+            </div>
             <div class="item">
               <img src="http://res.cloudinary.com/dnvhnyuny/image/upload/v1518448130/artwork3_yjywl9.jpg" alt="Artwork Third Slide">
             </div>
@@ -150,6 +175,8 @@
         </div>
       </div>
     </div>
+    <!-- Backtotop button -->
+    <%= render 'shared/backtotop' %>
   </div>
 </div>
 
