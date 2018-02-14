@@ -9,20 +9,20 @@
 
   <!-- Right Navigation -->
   <div class="navbar-wagon-right hidden-xs hidden-sm">
-    <%= link_to artwork_path do %>
-      <p class="navbar-text">ARTWORK</p>
+    <%= link_to "#{root_path}#about" do %>
+      <div class="navbar-text">ABOUT</div>
+    <% end %>
+    <%= link_to "#{root_path}#projects" do %>
+      <div class="navbar-text">PROJECTS</div>
+    <% end %>
+    <%= link_to "#{root_path}#contact" do %>
+      <div class="navbar-text">CONTACT</div>
+    <% end %>
+    <%= link_to artwork_path, :class => "nav-link" do %>
+      <div class="navbar-text">ARTWORK</div>
     <% end %>
     <%= link_to photos_path do %>
       <p class="navbar-text">PHOTOS</p>
-    <% end %>
-    <%= link_to "#{root_path}#projects" do %>
-      <p class="navbar-text">PROJECTS</p>
-    <% end %>
-    <%= link_to "#{root_path}#about" do %>
-      <p class="navbar-text">ABOUT</p>
-    <% end %>
-    <%= link_to "#{root_path}#contact" do %>
-      <p class="navbar-text">CONTACT</p>
     <% end %>
     <!-- Profile picture with dropdown list -->
   <!--   <div class="navbar-wagon-item">
