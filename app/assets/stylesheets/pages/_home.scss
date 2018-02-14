@@ -58,6 +58,9 @@
     color: #17139c;
     opacity: 1;
   }
+  .map {
+    width: 100%;
+  }
 }
 .banner2 {
   height: 50vh;
@@ -102,4 +105,13 @@
   }
 
 }
-
+@media screen and (max-width: 600px) {
+  .map {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
