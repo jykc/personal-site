@@ -9,8 +9,8 @@
   align-items: center;
   justify-content: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
-    image-url(
-      'img_parallax.jpg'
+    url(
+      'http://res.cloudinary.com/dnvhnyuny/image/upload/v1518448368/img_parallax_om2x8f.jpg'
     );
 }
 .banner h1 {
@@ -70,8 +70,8 @@
   align-items: center;
   justify-content: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
-    image-url(
-      'img_parallax2.jpg'
+    url(
+      'http://res.cloudinary.com/dnvhnyuny/image/upload/v1518448380/img_parallax2_tkgyye.jpg'
     );
 }
 .projects-and-contact-container {
